@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://login.rz.fh-augsburg.de/WWW/publish/Game/Mapeditor/|ftp://login.rz.fh-augsburg.de/WWW/publish/Game/Manager/|publish\</PublishUrlHistory>
+    <InstallUrlHistory>http://www.hs-augsburg.de/~mrh4287/publish/Game/Mapeditor/|http://www.hs-augsburg.de/~mrh4287/publish/Game/Manager/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>de-DE</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
