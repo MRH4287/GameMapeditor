@@ -43,7 +43,7 @@ namespace Mapeditor
 
         public void connect(string ip, int port)
         {
-            network = new TCPClient(ip, port);
+            network = new TCPClient(ip, port, "GamePW");
             network.OnTextRecieved += new TCPClient.TextRecievedEvent(network_OnTextRecieved);
             network.OnError += new TCPClient.TCPErrorEvent(network_OnError);
             network.OnConnect += new TCPClient.ConnectedEvent(network_OnConnect);
