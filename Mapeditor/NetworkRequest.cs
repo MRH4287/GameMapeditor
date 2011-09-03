@@ -124,8 +124,8 @@ namespace Mapeditor
 
         void network_OnError(NetworkException exception)
         {
-            //   main.status.Text = "Fehler: " + exception.Message;
-            MessageBox.Show(exception.Message);
+               main.status.Text = "Fehler: " + exception.Message;
+    
         }
 
         void network_OnTextRecieved(string input, byte[] byteInput, System.Net.Sockets.Socket client)

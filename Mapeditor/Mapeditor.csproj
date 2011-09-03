@@ -65,18 +65,6 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Data">
-      <HintPath>..\Lib\Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Encryption">
-      <HintPath>..\Lib\Encryption.dll</HintPath>
-    </Reference>
-    <Reference Include="GraphicLibary">
-      <HintPath>..\Lib\GraphicLibary.dll</HintPath>
-    </Reference>
-    <Reference Include="NetworkLib">
-      <HintPath>..\Lib\NetworkLib.dll</HintPath>
-    </Reference>
     <Reference Include="Share">
       <HintPath>..\..\Share\Share\bin\Debug\Share.dll</HintPath>
     </Reference>
@@ -90,6 +78,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="SystemLib">
+      <HintPath>..\Lib\SystemLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">

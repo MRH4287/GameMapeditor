@@ -57,9 +57,16 @@ namespace Mapeditor
 
                         request.Disconnect();
 
-                        Map map = (Map)response.Arguments[1];
+                        try
+                        {
+                            Map map = (Map)response.Arguments[1];
 
-                        main.loadMap(map);
+                            main.loadMap(map);
+                        }
+                        catch
+                        {
+                            MessageBox.Show("Fehler: Die Map konnte nicht geladen werden!");
+                        }
                     }
                     else
                     {
